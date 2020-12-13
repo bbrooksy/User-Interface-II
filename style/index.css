@@ -1,1 +1,97 @@
 /* Add CSS styling here */
+.header {
+  background-color: aqua;
+  padding: 10px;
+  margin:0 auto;
+  text-align: center;
+  justify-content:center;
+  align-items:center;
+}
+.header h1 {
+  font-size:70px;
+  font-family: 'Faster One';
+}
+
+ 
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content:center;
+  align-items: center;
+}
+
+
+
+li a {
+  color: white;
+  border: 1px solid;
+  border-radius: 15px;
+  padding: 10px;
+  text-decoration: none;
+  background: #333;
+}
+
+li a:hover {
+  background-color: white;
+  color:lime;
+}
+
+.intro h2 {
+  font-family: 'Bahiana'; font-size:3em ;
+}
+.intro   {
+  font-family: 'Cabin Sketch';
+  text-align: center;
+  font-size:20px;
+}
+.main-img {
+  padding-top:10px;
+  max-width:100%;
+  height:auto;
+}
+img {
+  max-width:100%;
+  height:auto;
+  
+  
+}
+
+ .bodyimg {
+  display:flex;
+  float:left;
+  width: 15%;
+  height:auto;
+  padding: 5px;
+  justify-content:space-evenly;
+  
+}
+.img-text p {
+  font-family: 'Major Mono Display';
+  font-size:smaller;
+  font-display: bold;
+  
+
+}
+
+.img-text {
+  display:flex;
+  font-size:20px;
+  margin:0 auto;
+  border:10px;
+padding-top:10px;
+  padding-bottom: 10px;
+  text-align:center;
+}
+
+  .footer {
+    display: flex;
+  list-style-type: none;
+  justify-content:center;
+  align-items: center;
+  background-color: aqua;
+ padding:40px;
+
+}
+
+
