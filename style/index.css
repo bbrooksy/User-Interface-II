@@ -50,22 +50,28 @@ li a:hover {
   max-width:100%;
   height:auto;
 }
-img {
-  max-width:100%;
-  height:auto;
-  
+div.flex-container > img {
+  display:flex;
+  width: 50px;
+  height: 20px;
+  justify-content: space-evenly;
+}
+
+.flex-container {
+  display: flex;
+  margin:30px;
+  border: 30px;
+  align-items: flex-start;
+  justify-content: space-between;
+} 
+
+.flex-container > div {
+  display: flex;
+  margin:30px;
+  background-color: #f1f1f1;
   
 }
 
- .bodyimg {
-  display:flex;
-  float:left;
-  width: 15%;
-  height:auto;
-  padding: 5px;
-  justify-content:space-evenly;
-  
-}
 .img-text p {
   font-family: 'Major Mono Display';
   font-size:smaller;
@@ -103,8 +109,11 @@ padding-top:10px;
       padding:10px;
       flex-direction:column;
     justify-content:space-evenly;
+  }
+    
+
 }
-}
+
 
   @media all and (max-width: 800px) 
   {
@@ -120,10 +129,6 @@ padding-top:10px;
     justify-content:space-evenly;
     padding:10px;
   }
-  footer {
-    display:flex;
-    flex-direction: column;
-
-  }
+  
 
   }
