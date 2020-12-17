@@ -87,11 +87,43 @@ padding-top:10px;
   .footer {
     display: flex;
   list-style-type: none;
-  justify-content:center;
+  justify-content:space-evenly;
   align-items: center;
   background-color: aqua;
  padding:40px;
+ width:100%;
 
 }
 
 
+@media all and (max-width: 600px) 
+{
+  nav  li a{
+      display:flex;
+      padding:10px;
+      flex-direction:column;
+    justify-content:space-evenly;
+}
+}
+
+  @media all and (max-width: 800px) 
+  {
+    nav  li a{
+      display:flex;
+      padding:10px;
+      flex-direction:column;
+    justify-content:space-evenly;
+}
+  ul {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    padding:10px;
+  }
+  footer {
+    display:flex;
+    flex-direction: column;
+
+  }
+
+  }
