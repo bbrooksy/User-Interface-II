@@ -50,46 +50,42 @@ li a:hover {
   max-width:100%;
   height:auto;
 }
-div.flex-container > img {
+.body_imgs {
+display:flexbox;
+flex-direction:row;
+}
+.body_imgs  img {
+  float:left;
   display:flex;
-  width: 50px;
-  height: 20px;
-  justify-content: space-evenly;
-}
-
-.flex-container {
-  display: flex;
-  margin:30px;
-  border: 30px;
-  align-items: flex-start;
+  margin:5px;
+    border: 5px;
+    padding: 5px;
+  max-width: 10%;
   justify-content: space-between;
-} 
-
-.flex-container > div {
-  display: flex;
-  margin:30px;
-  background-color: #f1f1f1;
-  
 }
+
 
 .img-text p {
   font-family: 'Major Mono Display';
   font-size:smaller;
   font-display: bold;
+  display:flex;
+  font-size:20px;
+  text-align:center;
   
 
 }
 
 .img-text {
+  box-sizing: border-box;
   display:flex;
-  font-size:20px;
-  margin:0 auto;
-  border:10px;
-padding-top:10px;
-  padding-bottom: 10px;
+  flex-wrap: wrap;
+  flex-direction: column;
   text-align:center;
+  margin:10px;
+  border:10px solid black;
+  overflow: hidden;
 }
-
   .footer {
     display: flex;
   list-style-type: none;
