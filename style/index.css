@@ -40,6 +40,13 @@ li a:hover {
 
 .intro h2 {
   font-family: 'Bahiana'; font-size:3em ;
+  background: white;
+  transition: width 2s, height 2s, transform 2s;
+}
+.intro h2:hover{
+  width: auto;
+  height: auto;
+  transform: rotate(180deg);
 }
 .intro   {
   font-family: 'Cabin Sketch';
@@ -98,6 +105,8 @@ div{
  width:100%;
 
 }
+
+
 
 
 @media all and (max-width: 600px) 
